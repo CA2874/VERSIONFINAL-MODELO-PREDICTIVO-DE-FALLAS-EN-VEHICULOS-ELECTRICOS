@@ -1,7 +1,7 @@
 pandas
 matplotlib
 seaborn
-scikit-learn
+scikit-learn==1.5.2
 xgboost
 joblib
-imbalanced-learn
+imbalanced-learn==0.12.4
