@@ -987,8 +987,8 @@ for res in [res_base, res_gs, res_rs]:
     })
 
 df_resultados = pd.DataFrame(resultados)
-print("\nComparación de modelos XGBoost (Base vs GridSearch vs Randomized):")
-display(df_resultados.sort_values("AUC", ascending=False))
+st.write("Comparación de modelos XGBoost (Base vs GridSearch vs Randomized):")
+st.write(df_resultados.sort_values("AUC", ascending=False))
 
 # Comparativa con curvas de ROC
 plt.figure(figsize=(7, 6))
