@@ -9,12 +9,8 @@ Original file is located at
 # **Collect Data**
 """
 
-# Acceder a google drive
-from google.colab import drive
-drive.mount('/content/drive')
 
-ubicacion_drive = '/content/drive/MyDrive/6672_Business Predictive Analytics_TF_Grupo 5/FuentesDatos'
-#ubicacion_drive = '/content/drive/MyDrive/Trabajo Parcial Business/FuentesDatos'
+
 
 # Cargamos la librería pandas
 import pandas as pd
