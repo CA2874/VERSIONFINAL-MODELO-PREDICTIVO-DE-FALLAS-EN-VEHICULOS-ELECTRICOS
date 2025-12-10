@@ -1060,7 +1060,7 @@ df_resultados["Nivel_riesgo"] = df_resultados["Prob_falla"].apply(
 )
 
 print("\n=== Resultados reales del dataset (sin NaN) ===")
-display(df_resultados)
+st.write(df_resultados)
 
 # Importar modelo de ML
 import pickle
