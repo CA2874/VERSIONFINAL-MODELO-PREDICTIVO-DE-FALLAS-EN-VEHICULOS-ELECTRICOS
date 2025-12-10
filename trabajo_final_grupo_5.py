@@ -672,7 +672,7 @@ def evaluar_modelo(nombre_modelo, modelo, X_test, y_test):
     'AUC': auc
   }
   df_resumen = pd.DataFrame(resumen, index=[0])
-  display(df_resumen)
+  st.write(df_resumen)
 
   # Matriz de confusión
   cm = confusion_matrix(y_test, y_pred)
