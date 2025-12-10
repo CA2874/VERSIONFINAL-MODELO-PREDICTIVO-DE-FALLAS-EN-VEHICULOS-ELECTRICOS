@@ -15,7 +15,7 @@ ubicacion_drive = '.'
 
 # Cargamos la librería pandas
 import pandas as pd
-
+import streamlit as st
 """## **Read Data**"""
 
 df_heavy = pd.read_csv(f'{ubicacion_drive}/heavy_user.csv')
@@ -497,7 +497,7 @@ tabla_multivariado.head()
 """## **DataFrame final**"""
 
 print("Shape del DataFrame final del EDA:", df.shape)
-display(df.head())
+st.write(df.head())
 
 # Guardamos el dataset post EDA
 df.to_pickle(f'{ubicacion_drive}/df_eda.pickle')
