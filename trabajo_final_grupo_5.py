@@ -648,7 +648,7 @@ def validacion_cruzada(nombre_modelo, modelo, X_train, y_train):
   }
 
   df_resumen = pd.DataFrame(resumen, index=[0])
-  display(df_resumen)
+  st.write(df_resumen)
 
 """## **Evaluation Models**"""
 
