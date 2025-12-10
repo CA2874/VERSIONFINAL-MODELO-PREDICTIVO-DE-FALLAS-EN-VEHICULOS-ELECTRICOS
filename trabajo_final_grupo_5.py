@@ -8,7 +8,8 @@ Original file is located at
 
 # **Collect Data**
 """
-
+# Definimos que la ubicación es la carpeta actual
+ubicacion_drive = '.'
 
 
 
